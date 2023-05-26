@@ -1,0 +1,650 @@
+body {
+margin: 0;
+padding: 0;}
+
+header {
+height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color:#f9b233;
+    font-size: 20px;
+    position: absolute;
+        
+}
+a{
+    font-family: Verdana;
+    color: black;
+    
+    
+}
+
+.logotipo {
+height: auto;
+    width: 30%;
+    float: left;
+    text-align: center;
+    position: sticky;
+}
+.primo
+{   height: 159%;
+    width: 30%;
+    float: left;
+    margin-left:10%;
+    
+}
+
+.segundo {
+    padding-top: 20px;
+    height: 10px;
+    width: 30%;
+    float: right;
+}
+.segundo a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    top: 60%;
+}
+
+*Menu desplegable*/
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+#html {
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;`
+    background: white;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+     top: 4%;
+    position: relative;
+  
+    
+    
+}
+.items {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    
+}
+.items .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+    
+}
+.items .aceimedio {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/aceitede500ml.png);
+    background-size: cover;
+    
+    }
+.items .aceilitro {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/aceitede1.png);
+    background-size: cover;
+
+    }
+.items .valentina  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/salsavalentina.jpg-1.png);
+    background-size: cover;
+    
+    } 
+.items .chipchico  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/chipochico-1.png);
+    background-size: cover;
+    
+    }
+.items .chipmediano {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/chipotlemediano.jpg.png);
+    background-size: cover;
+    
+    } 
+.items .frijol {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/ranchera.jpg.png);
+    background-size: cover;
+}
+.titulo {
+    height: 10px;
+    width: 100%;
+    padding-top: 150px;
+    }
+.cuerpo {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   }
+.imagenes {
+    margin-top: 100px;
+    width: 100%;
+   
+}
+.items {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+   
+}
+.hijo {
+    color: black;
+    font-size: 30px;
+   
+}
+.items .aceimedio {
+    height: 200px;
+    width: 100%;
+    }
+.items .aceilitro{
+    height: 200px;
+    width: 100%;
+   
+}
+.items .valentina {
+    height: 200px;
+    width: 100%;
+    
+    
+}
+.items .chipchico{
+    height: 200px;
+    width: 100%;
+   
+}
+
+
+.items .chipmediano {
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+.items .frijol {
+    height: 200px;
+    width: 100%;
+   }
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+    top: 4%;
+    position: relative;
+}
+.items2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.items2 .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+}
+.items2 .aderezo {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/aderezo.jpeg.png);
+    background-size: cover;
+    
+    }
+.items2 .azucar {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/azucar.png);
+    background-size: cover;
+
+    }
+.items2 .huevo {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/Cartera-de-huevo.jpg.png);
+    background-size: cover;
+    
+    } 
+.items2 .leche1  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/lechede1.png);
+    background-size: cover;
+    
+    }
+.items2 .leche2{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/leche2.jpg.png);
+    background-size: cover;
+    
+    } 
+.items2 .chilemediano  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/rajasmediano.png);
+    background-size: cover;
+    
+    }
+   .titulo2 {
+    height: 10px;
+    width: 100%;
+       
+       
+      
+}
+.cuerpo2 {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   
+ 
+}
+
+.imagenes2 {
+    margin-top: 100px;
+     width: 100%;
+   
+   
+}
+
+.items2 {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+     
+    
+}
+
+.items2 .aderezo {
+    height: 200px;
+    width: 100%;
+    
+    
+}
+.items2 .azucar{
+    height: 200px;
+    width: 100%;
+   
+}
+.items2 .huevo {
+    height: 200px;
+    width: 100%;
+    
+}
+.items2 .leche1 {
+    height: 200px;
+    width: 100%;
+   }
+.items2 .leche2 {
+    height: 200px;
+    width: 100%;
+    
+}
+.items2 .chilemediano {
+    height: 200px;
+    width: 100%;
+   }
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    top: 4%;
+    
+
+}
+.items3 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.items3 .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+}
+.items3 .chileentero {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/chileentero.jpg.png);
+    background-size: cover;
+    
+    }
+.items3 .coca1 {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/coca1.jpg.png);
+    background-size: cover;
+
+    }
+.items3 .coca25 {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/coca2.5.png);
+    background-size: cover;
+    
+    } 
+.items3 .coca600  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/coca600ml.png);
+    background-size: cover;
+    
+    }
+.items3 .vidrio{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/cocavidrio.png);
+    background-size: cover;
+    
+    } 
+.items3 .donitas  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/donitas.jpg);
+    background-size: cover;
+    
+    }
+   .titulo3 {
+    height: 10px;
+    width: 100%;
+}
+.cuerpo3 {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   
+ 
+}
+
+.imagenes3 {
+    margin-top: 100px;
+    width: 100%;
+   
+   
+}
+
+.items3 {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;   
+    
+}
+.hijo {
+    color: black;
+    font-size: 30px;
+}
+.items3 .chileentero {
+    height: 200px;
+    width: 100%;
+    
+    
+}
+.items3 .coca1{
+    height: 200px;
+    width: 100%;
+   
+}
+.items3 .coca25 {
+    height: 200px;
+    width: 100%;
+    
+}
+.items3 .coca600 {
+    height: 200px;
+    width: 100%;
+   }
+.items3 .vidrio {
+    height: 200px;
+    width: 100%;
+    
+}
+.items3 .donitas {
+    height: 200px;
+    width: 100%;
+   }
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+    top: 4%;
+    position: relative;
+  
+    
+
+}
+.items4 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.items4 .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+}
+.items4 .donazu {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/donitasazu.jpeg);
+    background-size: cover;
+    
+    }
+.items4 .pan {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/panblanco.png);
+    background-size: cover;
+
+    }
+.items4 .medias {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/MEDIAS-NOCHES-BIMBO_001.png);
+    background-size: cover;
+    
+    } 
+.items4 .rol  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(Img/roles.png);
+    background-size: cover;
+    
+    }
+.items4 .mantechoco{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/mantecadaschoco.png);
+    background-size: cover;
+    
+    } 
+.items4 .mantecadas  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/mantecadasvain.jpeg.png);
+    background-size: cover;
+    
+    }
+   
+
+.cuerpo4 {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   
+ 
+}
+
+.imagenes4 {
+   margin-top: 100px;
+    width: 100%;
+  
+}
+
+.items4 {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+   text-align: center;
+   
+    
+    
+}
+.hijo {
+    color: black;
+    font-size: 30px;
+}
+.items4 .donazu {
+    height: 200px;
+    width: 100%;
+    
+    
+}
+.items4 .pan{
+    height:200px;
+    width: 100%;
+   
+}
+.items4 .medias {
+    height: 200px;
+    width: 100%;
+    
+}
+.items4 .rol {
+    height: 200px;
+    width: 100%;
+   }
+.items4 .mantechoco {
+    height: 200px;
+    width: 100%;
+    
+}
+.items4 .mantecadas {
+    height: 200px;
+    width: 100%;
+   }
+

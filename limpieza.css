@@ -1,0 +1,371 @@
+body {
+margin: 0;
+padding: 0;}
+
+header {
+height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color:#f9b233;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+        
+}
+a{
+    font-family: Verdana;
+    color: black;
+    
+    
+}
+
+.logotipo {
+height: auto;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.primo
+{   height: 159%;
+    width: 30%;
+    float: left;
+    margin-left:10%;
+}
+
+
+.segundo {
+    padding-top: 20px;
+    height: 10px;
+    width: 30%;
+    float: right;
+}
+.segundo a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    top: 60%;
+}
+
+*Menu desplegable*/
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+#html {
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;}
+
+
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    top: 4%;
+   position: relative;
+  
+    
+    
+}
+.items {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    
+}
+.items .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+    
+}
+.items .crema {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/crema.jpg.png);
+    background-size: cover;
+    
+    }
+.items .jabon {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/zest.jpg.png);
+    background-size: cover;
+
+    }
+.items .pasta  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/pasta.jpg.png);
+    background-size: cover;
+    
+    } 
+.items .papel {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/papel.png);
+    background-size: cover;
+    
+    }
+.items .shampoo {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/shampoo.jpg.png);
+    background-size: cover;
+    
+    } 
+
+.titulo {
+    height: 10px;
+    width: 100%;
+    padding-top: 150px;
+    
+}
+.cuerpo {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   
+}
+
+.imagenes {
+    margin-top: 100px;
+    width: 100%;
+   
+    
+}
+
+.items {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    
+}
+.hijo {
+    color: black;
+    font-size: 30px;
+}
+.items .crema {
+    height: 300px;
+    width: 100%;
+    
+    
+}
+.items .jabon{
+    height: 300px;
+    width: 100%;
+   
+}
+.items .pasta {
+    height: 300px;
+    width: 100%;
+    
+    
+}
+.items .papel{
+    height: 300px;
+    width: 100%;
+   
+}
+
+
+.items .shampoo{
+    height: 300px;
+    width: 100%;
+    
+}
+
+
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+    top: 4%;
+ position: relative;
+    
+   
+   
+    
+
+}
+.items2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.items2 .hijo {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    
+}
+.items2 .clorochico {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/clorochico.jpg.png);
+    background-size: cover;
+    
+    }
+.items2 .cloromedio {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/cloromedio.jpg.png);
+    background-size: cover;
+
+    }
+.items2 .fabuloso {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/fabuloso.png);
+    background-size: cover;
+    
+    } 
+.items2 .jabon250  {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/jabonde250.jpg.png);
+    background-size: cover;
+    
+    }
+.items2 .jabon500{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/jabonde500.jpg.png);
+    background-size: cover;
+    
+    } 
+
+   .titulo2 {
+    height: 10px;
+    width: 100%;
+padding-top: 150px;
+      
+
+      
+}
+.cuerpo2 {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+   }
+
+.imagenes2 {
+    margin-top: 100px;
+    width: 100%;
+   
+   
+}
+
+.items2 {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+     
+    
+}
+.hijo {
+    color: black;
+    font-size: 30px;
+}
+.items2 .clorochico {
+    height: 300px;
+    width: 100%;
+    
+    
+}
+.items2 .cloromedio {
+    height: 300px;
+    width: 100%;
+   
+}
+.items2 .fabuloso {
+    height: 300px;
+    width: 100%;
+    
+}
+.items2 .jabon250 {
+    height: 300px;
+    width: 100%;
+   }
+.items2 .jabon500 {
+    height: 300px;
+    width: 100%;
+    
+}
+
